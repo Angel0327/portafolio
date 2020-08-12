@@ -1,0 +1,27 @@
+.rojo{
+  width: 100%;/*ancho del DIV*/
+  height: 60px;/*altura del DIV*/
+  background-color: red;/*color del relleno del DIV*/
+  border-radius: 10px;
+}
+.amarillo > div{
+  display: inline-block;
+}
+.amarillo{
+  width: 100%;/*ancho del DIV*/
+  height: 5px;/*altura del DIV*/
+  margin top: : 10px;
+}
+.azul{
+  width: 29.5%;/*ancho del DIV*/
+  height: 550px;/*altura del DIV*/
+  background-color: blue;/*color del relleno del DIV*/
+  float: left;
+
+}
+.verde{
+  width: 70%;/*ancho del DIV*/
+  height: 550px;/*altura del DIV*/
+  background-color: green;/*color del relleno del DIV*/
+  float: left;
+}

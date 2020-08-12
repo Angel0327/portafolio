@@ -1,0 +1,239 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.contenedor{
+    height: 300%;
+    width: 100%;
+    background-color: cadetblue; 
+    position: absolute;
+}
+
+.Arriba{
+    height: 100px;
+    width: 90%;
+    background-color: #4c7e80;
+    margin-top: 15px;
+    margin-left: 60px;
+    position: absolute;
+    border: 2px black dashed;
+}
+
+.cajaCuadros{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.botonPrincipal{
+    width: 100px;
+    height: 55px;
+    background-color: chocolate;
+    margin: auto;
+    border-radius: 3px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.botonProfile{
+    width: 100px;
+    height: 55px;
+    background-color: chocolate;
+    margin: auto;
+    border-radius: 3px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.botonJava{
+    width: 100px;
+    height: 55px;
+    background-color: chocolate;
+    margin: auto;
+    border-radius: 3px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.botonAndroid{
+    width: 100px;
+    height: 55px;
+    background-color: chocolate;
+    margin: auto;
+    border-radius: 3px;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.imgHtml{
+    margin-top: 180px;
+    height: 20%;
+    width: 30%;
+    float: left;
+}
+
+.primeraImg{
+    height: 100%;
+    width: 100%;
+}
+
+.text1{
+    margin-top: -360px;
+    height: 15%;
+    width: 65%;
+    margin-left: 400px;
+    background-color: #4c7e80;
+    float: right;
+    border-radius: 10px;
+}
+
+.explicacion{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cuadroLogin{
+   height: 25%;
+    width: 30%;
+    float: right;  
+    margin-top: 90px;
+}
+
+.Login{
+    height: 100%;
+    width: 100%;
+}
+
+.infoLogin{
+      margin-top: 90px;
+    height: 25%;
+    width: 65%;
+    margin-left: 5px;
+    background-color: #4c7e80;
+    float: left;
+    border-radius: 10px;
+}
+
+.textLogin{
+     color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.Prototipo{
+    height: 20%;
+    width: 40%;
+    float: left;  
+    margin-top: 90px;
+}
+
+.imgPrototipo{
+     height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.infoProto{
+      margin-top: 90px;
+    height: 20%;
+    width: 55%;
+    margin-left: 5px;
+    background-color: #4c7e80;
+    float: right;
+    border-radius: 10px;
+}
+
+.textProto{
+     color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.contactos{
+    margin-top: 1850px;
+    width: 97%;
+    height: 200px;
+    background-color: #4c7e80;
+    border: 2px black dashed;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.textContactos{
+   color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 50%;
+}  
+
+.insta{
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.imgInsta{
+    height: 150px;
+    width: 150px;
+}
+
+.facebook{
+    height: 150px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+.imgFace{
+    height: 150px;
+    width: 150px;
+}
+
+.Whats{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+}
+
+
+.imgWhats{
+   height: 100px;
+    width: 100px;  
+}
+
+.Num{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border: black 2px dashed;
+}
+
+.number{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 15px;
+}

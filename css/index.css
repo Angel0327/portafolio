@@ -1,0 +1,318 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.contenedor{
+    height: 1400px;
+    width: 100%;
+    background-color: cadetblue; 
+    
+}
+
+.cuadroAngel{
+    float: left;
+    margin-top: 20px;
+    height: 520px;
+    width: 550px;
+    margin-left: 50px;
+    border: black 2px dashed;
+}
+
+.Angel{
+    height: 300px;
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.presentacion{
+    height: 200px;
+    width: 450px;
+    float: left;
+    margin-top: 350px;
+    margin-left: -520px;
+}
+
+.text1{
+    color: white;
+    font-family: garamond;
+    font-size: 40px;
+}
+
+.text2{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+}
+
+.cuadroHtml{
+    height: 520px;
+    width: 550px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    border: black 2px dashed;
+}
+
+.imgHtml{
+    height: 250px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 5px;
+} 
+
+.textHtml{
+    color: white;
+    font-family: garamond;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.textHtml2{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.cuadroJava{
+    height: 570px;
+    width: 550px;
+    float: left;
+    margin-left: -555px;
+    margin-top: 600px;
+    border: black 2px dashed;
+}
+
+.imgJava{
+    height: 250px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 5px;
+} 
+
+.textJava{
+    color: white;
+    font-family: garamond;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.textJava2{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.cuadroAndroid{
+    height: 570px;
+    width: 550px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 56px;
+    border: black 2px dashed;
+}
+
+.imgAndroid{
+    height: 250px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 5px;
+} 
+
+.textAndroid{
+    color: white;
+    font-family: garamond;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.textAndroid2{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.contactos{
+    margin-top: -210px;
+    width: 97%;
+    height: 200px;
+    border: black 2px dashed;
+    margin-left: 15px;
+}
+
+.textContactos{
+   color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 50%;
+}  
+
+.insta{
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.imgInsta{
+    height: 150px;
+    width: 150px;
+}
+
+.facebook{
+    height: 150px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+.imgFace{
+    height: 150px;
+    width: 150px;
+}
+
+.Whats{
+    height: 150px;
+    width: 150px;
+    margin-left: 1000px;
+    margin-top: -150px;
+}
+
+
+.imgWhats{
+   height: 100px;
+    width: 100px;  
+}
+
+.Num{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border: black 2px dashed;
+}
+
+.number{
+    color: white;
+    font-family: garamond;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+
+.contenedor{
+width: 100%;
+height: 3650px;
+background-color: cadetblue; 
+    }
+
+    
+.cuadroAngel{
+     width: 97%;
+     height: 600px;
+    margin-left: 1px;
+    }
+
+.Angel{
+width: 97%;
+height: 45%;
+ margin-left: 2%;
+    }
+
+.presentacion{
+     width: 97%;
+     height: 10%;
+     margin-left: 3%;   
+     margin-top: -300px;
+    }
+
+
+.cuadroHtml{
+     width: 97%;
+     height: 610px;
+     margin-left: 1px;
+     margin-top: 20;
+        float: left;
+    }
+
+    .imgHtml{
+        width: 97%;
+        height: 30%;
+    margin-left: 2%;
+    }
+
+
+.cuadroJava{
+        width: 97%;
+     height: 780px;
+     margin-left: 1px;
+        margin-top: 20%;
+        float: left;
+    }
+
+    .imgJava{
+       width: 97%;
+height: 30%;
+ margin-left: 2%; 
+    }
+
+    .cuadroAndroid{
+        width: 97%;
+     height: 600px;
+     margin-left: 1px;
+        margin-top: 20%;
+        float: left;
+    }
+
+    .textAndroid{
+        margin-top: 2%;
+    }
+    
+    .imgAndroid{
+         width: 97%;
+height: 30%;
+ margin-left: 2%;
+    }    
+    
+.contactos{
+    width: 97%;
+     height: 10%;
+     margin-left: 1px;
+        margin-top: -730px;
+        float: left;
+    }
+    
+.insta{
+        float: left;
+        width: 97%;
+        height: 300px;
+         margin-left: 10%;
+        margin-top: 5%;
+    }    
+    
+.facebook{
+        float: left;
+        width: 97%;
+        height: 300px;
+        margin-left: 10%;
+        margin-top: -30%;
+    }    
+
+    .Whats{
+         float: left;
+        width: 97%;
+        height: 300px;
+         margin-left: 16%;
+        margin-top: -30%;
+    }
+
+}

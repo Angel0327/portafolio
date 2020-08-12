@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+display:-webkit-flex;
+display:-ms-flexbox;
+display: flex;
+flex-direction: column;/*ORDENA DE IZQUIERA A DERECHA*/
+width: 100%;
+height: 120px;
+background-color:#f38181;
+}
+.titulo{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: auto;
+}
+.redes-sociales{
+  width: 100%;
+  height: 40px;
+  background-color: aqua;
+}
+.redes-sociales img{
+width: 35px;
+}
