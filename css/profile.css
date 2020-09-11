@@ -32,55 +32,46 @@
     margin-left: 40px;
 }
 
-.botonPrincipal{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu ul{ /*estilo menu lista no ordenada*/
+    margin-top: 10px;
+    margin: 0; /* margen*/
+    list-style: none;/*estilo de lista*/
+    padding: 0; /*espacio de relleno*/
+    display: flex; /*estilo menu lista no ordenada*/
+   
+}
+.menu li:hover{ /*accion en el menu li*/
+    cursor: pointer; /*cursor encima*/
+    background:darkslategray; /*opacidad*/
+    
+}
+.menu li{ /*estilo de los li */
+    margin-top: 20px;
+    font-size: 20px; /*tamaño de la letra*/
+    font-family: 'Indie Flower', cursive;/*estilo de fuente*/
+    text-align: center; /*texto alineado al centro*/
+    flex-grow: 1;/* espaciado*/
+}
+.menu li a{
+    display: block; /*indica que usaremos todoel ancho disponible */
+    padding: 15px 25px; /*relleno hacia arriba y hacia la derecha*/
+    color: aliceblue;/*color de la letra*/
+    text-decoration: none; /*no decoracion en las letras*/
+    
 }
 
-.botonHtml{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu li ul{
+	display: none;
+	position: absolute;
+	width: 412px;
+	background: chocolate;
 }
 
-.botonJava{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu li:hover > ul{
+    background-color: cadetblue;
+    display: block;
 }
-
-.botonAndroid{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
-}
-
-
+        
 .photo{
     height: 300px;
     width: 400px;

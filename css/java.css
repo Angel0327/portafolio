@@ -6,7 +6,7 @@
 }
 
 .contenedor{
-    height: 1650px;
+    height: 300%;
     width: 100%;
     background-color: cadetblue; 
     position: absolute;
@@ -32,61 +32,44 @@
     margin-left: 40px;
 }
 
-.botonPrincipal{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu ul{ /*estilo menu lista no ordenada*/
+    margin-top: 10px;
+    margin: 0; /* margen*/
+    list-style: none;/*estilo de lista*/
+    padding: 0; /*espacio de relleno*/
+    display: flex; /*estilo menu lista no ordenada*/
+   
+}
+.menu li:hover{ /*accion en el menu li*/
+    cursor: pointer; /*cursor encima*/
+    background:darkslategray; /*opacidad*/
+}
+.menu li{ /*estilo de los li */
+    margin-top: 20px;
+    font-size: 20px; /*tamaño de la letra*/
+    font-family: sans-serif;/*estilo de fuente*/
+    text-align: center; /*texto alineado al centro*/
+    flex-grow: 1;/* espaciado*/
+}
+.menu li a{
+    display: block; /*indica que usaremos todoel ancho disponible */
+    padding: 15px 25px; /*relleno hacia arriba y hacia la derecha*/
+    color: aliceblue;/*color de la letra*/
+    text-decoration: none; /*no decoracion en las letras*/
+    
 }
 
-.botonProfile{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu li ul{
+	display: none;
+	position: absolute;
+	width: 412px;
+    background: chocolate;
 }
 
-.botonJava{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
+.menu li:hover > ul{
+    background-color: cadetblue;
+    display: block;
 }
-
-.botonAndroid{
-    width: 100px;
-    height: 55px;
-    background-color: chocolate;
-    margin: auto;
-    border-radius: 3px;
-    color:#ffffff;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
-}
-
-.contenido{
-    height: 40%;
-    width: 90%;
-    margin-top: 15%;
-    margin-left: 60px;
-    position: absolute;
-}   
 
 .imgJava{
     height: 35%;
@@ -95,13 +78,14 @@
 }
 
 .primeraImg{
-    height: 100%;
+    margin-top: 220px;
+    height: 43%;
     width: 100%;
 }
 
 .text1{
-    margin-top: -230px;
-    height: 35%;
+    margin-top: -499px;
+    height: 15%;
     width: 65%;
     margin-left: 400px;
     background-color: #4c7e80;
@@ -118,10 +102,10 @@
 }
 
 .cuadroLogin{
-   height: 60%;
+    height: 25%;
     width: 30%;
     float: right;  
-    margin-top: 90px;
+    margin-top: -50px;
 }
 
 .Conver{
@@ -130,8 +114,8 @@
 }
 
 .infoConver{
-      margin-top: 90px;
-    height: 60%;
+    margin-top: -50px;
+    height: 25%;
     width: 65%;
     margin-left: 5px;
     background-color: #4c7e80;
@@ -148,7 +132,7 @@
 }
 
 .textConver2{
-     color: white;
+    color: white;
     font-family: garamond;
     font-size: 30px;
     margin-top: 20px;
@@ -164,22 +148,22 @@
 }
 
 .Prototipo{
-    height: 50%;
-    width: 30%;
+    height: 20%;
+    width: 40%;
     float: left;  
-    margin-top: 90px;
+    margin-top: 130px;
 }
 
 .imgPrototipo{
-     height: 100%;
+    height: 100%;
     width: 100%;
     border-radius: 10px;
 }
 
 .infoProto{
-      margin-top: 90px;
-    height: 50%;
-    width: 60%;
+    margin-top: 130px;
+    height: 20%;
+    width: 55%;
     margin-left: 5px;
     background-color: #4c7e80;
     float: right;
@@ -187,7 +171,7 @@
 }
 
 .textProto{
-     color: white;
+    color: white;
     font-family: garamond;
     font-size: 25px;
     margin-top: 20px;
@@ -195,7 +179,7 @@
 }
 
 .textProto2{
-     color: white;
+    color: white;
     font-family: gramond;
     font-size: 25px;
     margin-top: 17px;
@@ -203,7 +187,7 @@
 }
 
 .contactos{
-    margin-top: 1440px;
+    margin-top: 1850px;
     width: 97%;
     height: 200px;
     background-color: #4c7e80;
@@ -213,7 +197,7 @@
 }
 
 .textContactos{
-   color: white;
+    color: white;
     font-family: garamond;
     font-size: 25px;
     margin-left: 50%;
